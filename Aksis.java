@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Not Takip Sistemi için OOP kullanarak yazdığım ufak bir deneme kodudur.
 
 class Student {
     public String full_name;
@@ -146,12 +147,6 @@ public class Aksis {
                 control = "exit";
 
             }
-            else{
-                System.out.println("Yanlis kullanici adi veya sifre. Lutfen tekrar deneyiniz.\nKullanici adi:");
-                username = scanner.nextLine();
-                System.out.println("Sifre:");
-                password = scanner.nextInt();
-                control = "back";
             }
             
         }
